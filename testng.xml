@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test thread-count="5" name="Annotations">
+
+        <parameter name="alertURL"  value="http://demo.guru99.com/test/delete_customer.php" />
+        <parameter name="alertKEY"  value="53920" />
+        <parameter name="alertEXP_1"  value="Do you really want to delete this Customer?" />
+        <parameter name="alertEXP_2"  value="Customer Successfully Delete!" />
+        <parameter name="downloadURL"  value="http://demo.guru99.com/test/yahoo.html" />
+        <parameter name="downloadCOMMAND"  value="gitbash | wget -P C:\Users\Ojustine\Downloads --no-check-certificate " />
+        <parameter name="downloadPATH"  value="C:\Users\Ojustine\Downloads\msgr11us.exe" />
+        <parameter name="loginURL"  value="http://demo.guru99.com/test/login.html" />
+        <parameter name="loginLOGIN"  value="cafe@babe.com" />
+        <parameter name="loginPASS"  value="12345" />
+        <parameter name="loginEXP"  value="Successfully Logged in..." />
+        <parameter name="uploadURL"  value="http://demo.guru99.com/test/upload/" />
+        <parameter name="uploadFILE"  value="C:\Users\Ojustine\Desktop\untitled\src\test\technoserv\selenium\testing.xml" />
+        <parameter name="uploadEXP"  value=" successfully" />
+        <parameter name="validationURL"  value="http://demo.guru99.com/V1/index.php" />
+        <parameter name="popupURL"  value="http://demo.guru99.com/popup.php" />
+        <parameter name="popupEMAIL"  value="qwerty@lala.com" />
+
+        <classes>
+            <class name="my.testing.GoogleHomePageTest"/>
+        </classes>
+
+    </test> <!-- Annotations -->
+    <test thread-count="5" name="Annotations1">
+
+        <parameter name="alertURL"  value="http://demo.guru99.com/test/delete_customer.php" />
+        <parameter name="alertKEY"  value="53920" />
+        <parameter name="alertEXP_1"  value="Do you really want to delete this Customer?" />
+        <parameter name="alertEXP_2"  value="Customer Successfully Delete!" />
+        <parameter name="downloadURL"  value="http://demo.guru99.com/test/yahoo.html" />
+        <parameter name="downloadCOMMAND"  value="gitbash | wget -P C:\Users\Ojustine\Downloads --no-check-certificate " />
+        <parameter name="downloadPATH"  value="C:\Users\Ojustine\Downloads\msgr11us.exe" />
+        <parameter name="loginURL"  value="http://demo.guru99.com/test/login.html" />
+        <parameter name="loginLOGIN"  value="cafe@babe.com" />
+        <parameter name="loginPASS"  value="12345" />
+        <parameter name="loginEXP"  value="Successfully Logged in..." />
+        <parameter name="uploadURL"  value="http://demo.guru99.com/test/upload/" />
+        <parameter name="uploadFILE"  value="C:\Users\Ojustine\Desktop\untitled\src\test\technoserv\selenium\testing.xml" />
+        <parameter name="uploadEXP"  value=" successfully" />
+        <parameter name="validationURL"  value="http://demo.guru99.com/V1/index.php" />
+        <parameter name="popupURL"  value="http://demo.guru99.com/popup.php" />
+        <parameter name="popupEMAIL"  value="qwerty@lala.com" />
+
+        <classes>
+            <class name="my.testing.GoogleHomePageTest"/>
+        </classes>
+
+    </test> <!-- Annotations -->
+</suite> <!-- Suite -->
